@@ -25,7 +25,6 @@ class Api::V1::OrdersController < ApplicationController
   private
 
   def order_params
-    params.permit(order_lists:[:Customer_Name, :Customer_Phone, :Special_Instruction,:name, :price,  :Total_Price, :Order_Time])
-
+    params.permit(:Customer_Name, :Customer_Phone, :Special_Instruction, :Total_Price, :Order_Time, order_lists: [:name, :price] )
   end
 end

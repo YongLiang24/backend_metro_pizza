@@ -28,6 +28,11 @@ ActiveRecord::Schema.define(version: 2019_04_30_214504) do
 
   create_table "orders", force: :cascade do |t|
     t.string "order_lists", default: [], array: true
+    t.string "Customer_Name"
+    t.string "Customer_Phone"
+    t.string "Special_Instruction"
+    t.decimal "Total_Price", precision: 5, scale: 2
+    t.string "Order_Time"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
