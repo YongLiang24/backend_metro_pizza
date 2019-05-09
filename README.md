@@ -1,8 +1,11 @@
 # README
-## This Repository is a rails API backend for Metro Pizza project.
-## Metro Pizza Repos: https://github.com/YongLiang24/frontend_customers_metro_pizza
+### This Repository is a rails API backend for Metro Pizza project.
 
-## https://github.com/YongLiang24/frontend_admin_metro_pizza
+### Metro Pizza Repos: 
+https://github.com/YongLiang24/frontend_customers_metro_pizza
+
+https://github.com/YongLiang24/frontend_admin_metro_pizza
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
